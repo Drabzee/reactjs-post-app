@@ -1,0 +1,27 @@
+.post {
+  width: 16rem;
+  margin-right: 10px;
+  flex: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 540px) {
+  .post {
+    width: 18rem;
+  }
+}
+
+.title {
+  overflow: hidden;
+  text-transform: capitalize;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.body {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

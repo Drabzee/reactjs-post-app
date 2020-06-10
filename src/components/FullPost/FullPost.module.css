@@ -1,0 +1,26 @@
+.fullPost {
+  margin: 50px 0px;
+}
+
+@media screen and (min-width: 540px) {
+  .fullPost {
+    margin: 50px 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .fullPost {
+    margin: 50px 100px;
+  }
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
